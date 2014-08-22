@@ -1,0 +1,251 @@
+<html>
+<head>
+<title>TestNG:  LRS2.0_AllTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LRS2.0_AllTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 21 19:09:17 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64777 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='LRS2_0.runTests.WEB_1026__WEB_1038__WEB_1807()'><b>WEB_1026__WEB_1038__WEB_1807</b><br>Test class: LRS2_0.runTests<br/>
+<a href="#Output-2037402813" onClick='toggleBox("Output-2037402813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2037402813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2037402813">
+WEB-1026, WEB-1038, WEB-1807<br><br/>
+Logging in as Account Owner User: newaccowner1@gmail.com on Chrome on Windows<br><br/>
+Waiting for element By.id: btnLoginSubmit to exist<br><br/>
+Waiting for Ajax Refresh<br><br/>
+JQuery libraries are not present on page https://devconnect.lrsus.com/ - LRS Admin<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: false<br><br/>
+Found Element By.id: btnLoginSubmit: true<br><br/>
+Found Element: By.id: btnLoginSubmit<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Attempting to type:newaccowner1@gmail.com inside By.selector: *[id='j_username']<br><br/>
+Waiting for element By.selector: *[id='j_username'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.selector: *[id='j_username']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Successfully typed:newaccowner1@gmail.com inside By.selector: *[id='j_username']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Attempting to type:synerzip123 inside By.id: j_password<br><br/>
+Waiting for element By.id: j_password to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.id: j_password<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Successfully typed:synerzip123 inside By.id: j_password<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS<br><br/>
+Clicked on element using JS<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for element By.xpath: //ul[@id='main-menu-right']//a[@class='dropdown-toggle'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.xpath: //ul[@id='main-menu-right']//a[@class='dropdown-toggle']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.xpath: //div[(@class='productName') and (contains(text(),'Check Point'))]<br><br/>
+Clicked on element using JS: By.xpath: //div[(@class='productName') and (contains(text(),'Check Point'))]<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for element By.xpath: //a[text()='Surveys'] to exist<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: false<br><br/>
+Found Element By.xpath: //a[text()='Surveys']: true<br><br/>
+Found Element: By.xpath: //a[text()='Surveys']<br><br/>
+Waiting for element By.xpath: //a[text()='Notifications'] to exist<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found Element By.xpath: //a[text()='Notifications']: true<br><br/>
+Found Element: By.xpath: //a[text()='Notifications']<br><br/>
+Waiting for element By.xpath: //a[text()='Devices'] to exist<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found Element By.xpath: //a[text()='Devices']: true<br><br/>
+Found Element: By.xpath: //a[text()='Devices']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.xpath: //a[text()='Notifications']<br><br/>
+Clicked on element using JS: By.xpath: //a[text()='Notifications']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.selector: button.btn.addProductBtn<br><br/>
+Clicked on element using JS: By.selector: button.btn.addProductBtn<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.id: modalSave<br><br/>
+Clicked on element using JS: By.id: modalSave<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Value of 'value' attribute retrieved from element: By.xpath: //tr[@class='mdDetailInput']//td[contains(@class,'error')]/input[@id='name']/following-sibling::input[contains(@class,'error')] is: Name is required.<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Value of 'value' attribute retrieved from element: By.xpath: //tr[@class='mdDetailInput']//td[contains(@class,'error')]/input[@id='phoneNo']/following-sibling::input[contains(@class,'error')] is: Phone number is required<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Value of 'value' attribute retrieved from element: By.xpath: //tr[@class='mdDetailInput']//td[contains(@class,'error')]/select[@id='status']/following-sibling::input[contains(@class,'error')] is: Status is required<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.id: modalCancel<br><br/>
+Clicked on element using JS: By.id: modalCancel<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+...testing WEB-1038, WEB-1807<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.selector: button.btn.addProductBtn<br><br/>
+Clicked on element using JS: By.selector: button.btn.addProductBtn<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.xpath: //*[@id='name']<br><br/>
+Clicked on element using JS: By.xpath: //*[@id='name']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Attempting to type:AutomationPM813771 inside By.xpath: //*[@id='name']<br><br/>
+Waiting for element By.xpath: //*[@id='name'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.xpath: //*[@id='name']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Successfully typed:AutomationPM813771 inside By.xpath: //*[@id='name']<br><br/>
+Changing status to ACTIVE<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.xpath: //*[@id='status']<br><br/>
+Clicked on element using JS: By.xpath: //*[@id='status']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.xpath: //*[@id='phoneNo']<br><br/>
+Clicked on element using JS: By.xpath: //*[@id='phoneNo']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Attempting to type:5278754583123 inside By.xpath: //*[@id='phoneNo']<br><br/>
+Waiting for element By.xpath: //*[@id='phoneNo'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.xpath: //*[@id='phoneNo']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Successfully typed:5278754583123 inside By.xpath: //*[@id='phoneNo']<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Value of 'value' attribute retrieved from element: By.xpath: //*[@id='phoneNo'] is: 527.875.4583<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Going to click on element using JS: By.id: modalSave<br><br/>
+Clicked on element using JS: By.id: modalSave<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Waiting for element By.xpath: //table[@class='mdDetailTable']//input[@value='AutomationPM813771'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.xpath: //table[@class='mdDetailTable']//input[@value='AutomationPM813771']<br><br/>
+Waiting for element By.xpath: //table[@class='mdDetailTable']//input[@value='5278754583'] to be visible<br><br/>
+Waiting for Ajax Refresh<br><br/>
+Found visible Element: By.xpath: //table[@class='mdDetailTable']//input[@value='5278754583']<br><br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>LRS2_0.runTests@16c0663d</td></tr>
+</table><p>
+</body>
+</html>

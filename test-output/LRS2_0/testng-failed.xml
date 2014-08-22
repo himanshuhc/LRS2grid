@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LRS2_0]" parallel="tests">
+  <test name="LRS2.0_AllTests(failed)" parallel="tests">
+    <classes>
+      <class name="LRS2_0.runTests">
+        <methods>
+          <include name="initSuite"/>
+          <include name="WEB_1026__WEB_1038__WEB_1807"/>
+        </methods>
+      </class> <!-- LRS2_0.runTests -->
+    </classes>
+  </test> <!-- LRS2.0_AllTests(failed) -->
+</suite> <!-- Failed suite [LRS2_0] -->
