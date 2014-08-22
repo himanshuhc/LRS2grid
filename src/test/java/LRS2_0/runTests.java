@@ -179,6 +179,7 @@ public class runTests
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("test-type");
 		dc.setCapability(ChromeOptions.CAPABILITY, options);
+		dc.setPlatform(Platform.WINDOWS);
 
 		dc.setBrowserName(DesiredCapabilities.chrome().getBrowserName());
 		try
